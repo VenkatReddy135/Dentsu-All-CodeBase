@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Employee List component page renders a snapshot 1`] = `
+<div
+  className="container border border-info mt-4 mb-4"
+>
+  <h2>
+    Employee List
+  </h2>
+  <div
+    className="row"
+  >
+    <div
+      className="col"
+    >
+      <input
+        className="form-control searchField marginClass"
+        data-test-id="search"
+        onChange={[Function]}
+        placeholder="Search"
+        type="text"
+      />
+    </div>
+  </div>
+  <table
+    className="table table-striped marginClass"
+  >
+    <thead>
+      <tr>
+        <th>
+          Employee Name
+        </th>
+        <th>
+          Employee Age
+        </th>
+        <th>
+          Employee Salary
+        </th>
+        <th>
+          Actions
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td
+          colSpan={3}
+        >
+          No Employees Found
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <div
+    className="toast-container position-absolute top-0 end-0 p-3"
+  />
+</div>
+`;
